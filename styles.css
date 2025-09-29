@@ -96,7 +96,10 @@ body{
 }
 
 .main_container{
-    
     place-items: center;
-   
+    
+}
+
+.price{
+    place-items: center;
 }
