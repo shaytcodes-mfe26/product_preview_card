@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --clr-neutral-Cream: #f2ebe3ff;
+    --clr-natural-White: #ffffffff;
+    --clr-natural-Grey: #6c7289ff;
+    --clr-natural-Black: #1c232bff;
+    --clr-natural-Green: #3c8067ff;
+    --clr-dark-Green: #1b4133ff;
 
+    --ff:'Montserrat','Fraunces';
+    --fs-body: 0.875rem;
+    --fs-heading: 1.75rem;
+
+}
 
 main {
   display: flex;
