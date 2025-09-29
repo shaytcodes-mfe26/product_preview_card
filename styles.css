@@ -100,6 +100,7 @@ body{
     
 }
 
-.price{
+section{
+    display: block;
     place-items: center;
 }
