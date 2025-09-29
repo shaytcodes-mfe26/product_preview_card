@@ -104,3 +104,7 @@ section{
     display: block;
     place-items: center;
 }
+
+footer{
+    place-items: center;
+}
