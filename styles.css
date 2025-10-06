@@ -97,7 +97,12 @@ body{
 
 .main_container{
     place-items: center;
+    background: var(--clr-natural-White);
     
+}
+.header_img{
+  display: block;
+  
 }
 
 section{
