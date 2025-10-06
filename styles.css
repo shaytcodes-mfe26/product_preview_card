@@ -1,20 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --clr-neutral-Cream: #f2ebe3ff;
-    --clr-natural-White: #ffffffff;
-    --clr-natural-Grey: #6c7289ff;
-    --clr-natural-Black: #1c232bff;
-    --clr-natural-Green: #3c8067ff;
-    --clr-dark-Green: #1b4133ff;
+    --clr-secondary-200: hsl(32, 37%, 92%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-400: hsl(228, 12%, 48%);
+    --clr-neutral-900: hsl(212, 21%, 14%);
+    --clr-primary-400: hsl(158, 36%, 37%);
+    --clr-primary-500: hsl(158, 41%, 18%);
 
-    --ff:'Montserrat','Fraunces';
-    --fs-body: 0.875rem;
-    --fs-heading: 1.75rem;
-    --fw-400: 400;
-    --fw-500: 500;
-    --fw-700: 700;
+    --ff-accent:'Fraunces',serif;
+    --ff-base:'Montserrat', sans-serif;
 
+    --fw-regular: 500;
+    --fw-bold: 700;
 }
 
 *,
@@ -30,7 +28,6 @@ picture,
 video {
   display: block;
   max-width: 100%;
-  height: auto;
 }
 
 input,
@@ -38,9 +35,6 @@ button,
 textarea,
 select {
   font: inherit;
-  color: inherit;
-  background: none;
-  border-color: transparent;
 }
 
 a {
@@ -90,27 +84,3 @@ a {
   src: url('../fonts/fraunces-v38-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-body{
-    background: var(--clr-neutral-Cream);
-
-}
-
-.main_container{
-    place-items: center;
-    background: var(--clr-natural-White);
-    
-}
-.header_img{
-  display: block;
-  
-}
-
-section{
-    display: block;
-    place-items: center;
-}
-
-.attribution{
-    display: block;
-    place-items: center;
-}
