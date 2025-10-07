@@ -112,3 +112,75 @@ h1, h2, h3, h4, h5, h6 {
   src: url('../fonts/fraunces-v38-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+body{
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+    font-size: 0.875rem;
+    color: var(--clr-neutral-400);
+    background-color: var(--clr-secondary-200);
+    display: grid;
+    place-content: center;
+    margin: 1rem;
+}
+
+.flex-group{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.visually-hidden:not(:focus):not(:active){
+  clip: rect(0 0 0 0);
+  clip-path: insert(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.button{
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  gap: 0.75rem;
+  justify-content: cneter;
+  align-items: center;
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 0.75em 1.5em;
+  background-color:var(--clr-primary-400);
+  color: var(--clr-neutral-100);
+  font-weight: var(--fw-bold);
+  font-size: 0.925rem;
+}
+
+.button[data-icon="shopping-cart"]::before{
+  content: "";
+  background-image: url(icon-cart.svg);
+  width: 15px;
+  height: 16px;
+}
+
+.button:is(:hover, :focus){
+  background-color: var(--clr-primary-500);
+}
+
+.product{
+  --content-padding: 1.5rem;
+  --content-spacing: 1rem;
+  display: grid;
+  background-color: var(--clr-neutral-100);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  max-width: 600px;
+}
+
+@media (min-width: 600px){
+  .product{
+    --content-padding: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
