@@ -197,4 +197,5 @@ body{
 a{
   align-items: center;
   padding-top: 2rem;
+  color: var(--clr-primary-400);
 }
