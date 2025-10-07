@@ -193,3 +193,8 @@ body{
   font-family: var(--ff-accent);
   color: var(--clr-primary-400)
 }
+
+footer{
+  justify-content: center;
+  padding-top: 1rem;
+}
