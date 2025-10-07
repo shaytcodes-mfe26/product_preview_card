@@ -195,6 +195,6 @@ body{
 }
 
 footer{
-  justify-content: center;
+  display: grid;
   padding-top: 1rem;
 }
