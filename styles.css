@@ -184,3 +184,26 @@ body{
   }
 }
 
+.product_content{
+  display: grid;
+  gap: var(--content-spacing);
+  padding: var(--content-padding);
+}
+
+.product_type{
+  font-size: 0.8125rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.product_title{
+  font-size: 2rem;
+  font-family: var(--ff-accent);
+  color:var(--clr-neutral-900)
+}
+
+.product_price{
+  font-size: 2rem;
+  font-family: var(--ff-accent);
+  color: var(--clr-primary-400)
+}
