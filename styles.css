@@ -199,7 +199,6 @@ footer {
   justify-content: center; /* Centers items horizontally */
   align-items: center; /* Centers items vertically (if height is defined) */
   padding-top: 0.725rem;
-  overflow: hidden;
 }
 
 a{
