@@ -194,7 +194,7 @@ body{
   color: var(--clr-primary-400)
 }
 
-footer{
-  display: grid;
-  padding-top: 1rem;
+a{
+  align-items: center;
+  padding-top: 2rem;
 }
